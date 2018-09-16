@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    tools:context="com.example.dangnhapfacebook.dangnhapfacebook.MainActivity">
+
+    <ImageView
+
+        android:id="@+id/imv_fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/image_facebook"
+
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imv_fb"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:hint="@string/hint_email_phone"
+        android:padding="@dimen/text_padding"
+        android:textColor="@color/black"
+        android:background="@drawable/roundboder2"/> <!-- làm Round border -->
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_email"
+        android:layout_marginBottom="@dimen/edt_margin_bottom"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:layout_marginTop="@dimen/edt_margin_top"
+        android:hint="@string/hint_pass"
+        android:padding="@dimen/text_padding"
+        android:textColor="@color/black"
+        android:background="@drawable/roundboder2"/> <!-- làm Round border -->
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="195dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/roundborder"
+        android:text="@string/text_login"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <!---Làm chữ forgot password -->
+    <TextView
+        android:id="@+id/btn_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="275dp"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:text="@string/text_forgot"
+        android:textColor="@color/white" />
+    <!---Làm chữ sign up for facebook -->
+    <TextView
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/edt_margin_left"
+        android:layout_marginRight="@dimen/edt_margin_right"
+        android:gravity="center"
+        android:padding="@dimen/text_padding"
+        android:text="@string/text_sign_up"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_small"
+        android:textStyle="italic" />
+
+
+    <!---Làm dấu ? -->
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="14dp"
+        android:background="@color/xanhdam"
+        android:text=" ? "
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DangNhapFaceBook</string>
+    
+    <string name="hint_email_phone">Email and phone </string>
+    <string name="hint_pass">Password </string>
+    <string name="text_login">Log In </string>
+    <string name="text_forgot"><i>Forgot Password?</i> </string>
+    <string name="text_sign_up"> <u> Sign up for Facebook </u> </string> <!---Làm gạch chân cho chữ Sign up -->
+</resources>
